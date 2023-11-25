@@ -1,0 +1,113 @@
+.sidenav {
+  position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    z-index: 1;
+  }
+  
+  .sidenav__logo {
+    width: 120px;
+    margin: 25px;
+  }
+  
+  .sidenav__buttons {
+ 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidenav__button {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    background: 0;
+    border: none;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+  }
+  
+  .sidenav__button:hover {
+    cursor: pointer;
+    background-color: rgba(61, 59, 59, 0.128);
+  }
+  
+  .sidenav__button > span {
+  
+    font-size: 18px;
+    border: hidden;
+    font-weight:lighter;
+    margin-left: 10px;
+  }
+  
+  .sidenav__more {
+   
+    bottom: 3px;
+  }
+  
+  .logout__button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.211);
+    border:none;
+    border: hidden;
+    padding: 10px;
+  }
+  
+  .logout__button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.424);
+  }
+  
+  #pix{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+  }
+  .searchoff{
+    position:absolute;
+    top: 90px;
+    left:27px;
+}
+.searchinput{
+    border-radius: 6px;
+    padding:8px;
+    padding-left: 35px;
+    border:none;
+    background-color: #edeaea;
+}
+.searchinput:focus{
+    outline:none;
+}
+.messagereq{
+  display:flex;
+  justify-content: space-between;
+}
+.message_friends{
+  display: flex;
+  margin-top: 18px;
+}
+
+.notify_friends{
+  display: flex;
+  margin-top: 12px;
+}
+.notify_image{
+  min-width: 48px;
+  min-height: 48px;
+  margin-left: 30px;
+}
+.notify_username{
+  margin-left: 15px;
+  display: flex;
+}
+.container {
+  max-height: 100vh;
+}

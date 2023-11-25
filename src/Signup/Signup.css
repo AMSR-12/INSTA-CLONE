@@ -1,0 +1,24 @@
+.download-icon {
+    width: 90%;
+    height: 60px;
+  }
+  .container {
+    max-height: 100vh;
+  }
+  .center{
+    text-align: center;
+  }
+  .img{
+    width: 60%;
+    height: 60%;
+    
+  }
+  .text-muted{
+    text-align: center;
+  }
+  .get{
+    text-align: center;
+  }
+  .break{
+    text-align: center;
+  }
